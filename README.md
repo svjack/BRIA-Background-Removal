@@ -23,8 +23,41 @@ It is ideal where content safety, legally licensed datasets, and bias mitigation
 
 Developed by BRIA AI, RMBG v2.0 is available as a source-available model for non-commercial use. 
 
-[CLICK HERE FOR A DEMO](https://huggingface.co/spaces/briaai/BRIA-RMBG-2.0)
-![examples](t4.png)
+## Installation and Setup Instructions
+
+### Prerequisites
+
+Before you begin, ensure you have the following installed on your system:
+
+1. **Update and Install Required Packages**
+   ```bash
+   sudo apt-get update && sudo apt-get install cbm git-lfs ffmpeg
+   ```
+
+2. **Set Up Conda Environment**
+   ```bash
+   conda create -n py310 python=3.10 && conda activate py310 && pip install ipykernel && python -m ipykernel install --user --name py310 --display-name "py310"
+   ```
+
+### Clone and Install the Project
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://huggingface.co/spaces/svjack/BRIA-RMBG-2.0-Video && cd BRIA-RMBG-2.0-Video
+   ```
+
+2. **Install Dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+### Run the Application
+
+To start the application, run the following command:
+
+```bash
+python app.py
+```
 
 ## Model Details
 #####
@@ -74,11 +107,6 @@ For clarity, we provide our data distribution according to different categories,
 | Single main foreground object | 51.42% |
 | Multiple objects in the foreground | 48.58% |
 
-
-## Qualitative Evaluation
-Open source models comparison
-![diagram](diagram1.png)
-![examples](collage5.png)
 
 ### Architecture
 RMBG-2.0 is developed on the [BiRefNet](https://github.com/ZhengPeng7/BiRefNet) architecture enhanced with our proprietary dataset and training scheme. This training data significantly improves the model’s accuracy and effectiveness for background-removal task.<br>
