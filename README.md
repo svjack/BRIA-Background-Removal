@@ -59,6 +59,60 @@ To start the application, run the following command:
 python app.py
 ```
 
+<table>
+  <tr>
+    <td>
+      <video width="320" height="240" controls>
+        <source src="https://github.com/user-attachments/assets/6dc3ed5b-87a1-4cf1-9fe6-f9139cc5a83f" type="video/mp4">
+      </video>
+    </td>
+    <td>
+      <video width="320" height="240" controls>
+        <source src="https://github.com/user-attachments/assets/57dc6615-894d-4e00-bd12-4dcafcc3bd3f" type="video/mp4">
+      </video>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <video width="320" height="240" controls>
+        <source src="https://github.com/user-attachments/assets/2acedebd-9443-4a75-bdbf-25294d26ac8e" type="video/mp4">
+      </video>
+    </td>
+    <td>
+      <video width="320" height="240" controls>
+        <source src="https://github.com/user-attachments/assets/436a5acc-63bd-49b0-ab2a-868a2f706c6f" type="video/mp4">
+      </video>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <video width="320" height="240" controls>
+        <source src="https://github.com/user-attachments/assets/c02ca48b-a607-43cc-b4d3-31b7341d5854" type="video/mp4">
+      </video>
+    </td>
+    <td>
+      <video width="320" height="240" controls>
+        <source src="https://github.com/user-attachments/assets/791df32e-5e23-45f4-ab1f-72926f188b6b" type="video/mp4">
+      </video>
+    </td>
+  </tr>
+</table>
+
+<!--
+https://github.com/user-attachments/assets/6dc3ed5b-87a1-4cf1-9fe6-f9139cc5a83f
+
+https://github.com/user-attachments/assets/57dc6615-894d-4e00-bd12-4dcafcc3bd3f
+
+https://github.com/user-attachments/assets/2acedebd-9443-4a75-bdbf-25294d26ac8e
+
+https://github.com/user-attachments/assets/436a5acc-63bd-49b0-ab2a-868a2f706c6f
+
+https://github.com/user-attachments/assets/c02ca48b-a607-43cc-b4d3-31b7341d5854
+
+https://github.com/user-attachments/assets/791df32e-5e23-45f4-ab1f-72926f188b6b
+-->
+
+
 ## Model Details
 #####
 ### Model Description
