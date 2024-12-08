@@ -103,6 +103,16 @@ huggingface-cli download \
 
 python remove_bg_script.py video-dataset-Lily-Bikini-organized video-dataset-Lily-Bikini-rm-background-organized --copy_others
 ```
+- Video to Sketch in a dir
+```bash
+sudo apt-get update && sudo apt-get install cbm git-lfs ffmpeg 
+git clone https://huggingface.co/spaces/svjack/video-to-sketch && cd video-to-sketch
+pip install gradio huggingface_hub torch==1.11.0 torchvision==0.12.0 pytorchvideo==0.1.5 pyav==11.4.1
+huggingface-cli download \
+  --repo-type dataset svjack/video-dataset-Lily-Bikini-organized \
+  --local-dir video-dataset-Lily-Bikini-organized
+python video_to_sketch_script.py video-dataset-Lily-Bikini-organized video-dataset-Lily-Bikini-sketch-organized --copy_others
+```
 
 ## Model Details
 #####
