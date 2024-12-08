@@ -53,7 +53,7 @@ Before you begin, ensure you have the following installed on your system:
 
 ### Run the Application
 
-To start the application, run the following command:
+- To start the application, run the following command:
 
 ```bash
 python app.py
@@ -93,6 +93,16 @@ https://github.com/user-attachments/assets/c02ca48b-a607-43cc-b4d3-31b7341d5854
 https://github.com/user-attachments/assets/791df32e-5e23-45f4-ab1f-72926f188b6b
 -->
 
+- Reomve background video in a dir
+```bash
+pip install torch accelerate opencv-python pillow numpy timm kornia prettytable typing scikit-image transformers>=4.39.1 gradio==4.44.1 gradio_imageslider loadimg>=0.1.1 "httpx[socks]" moviepy==1.0.3
+
+huggingface-cli download \
+  --repo-type dataset svjack/video-dataset-Lily-Bikini-organized \
+  --local-dir video-dataset-Lily-Bikini-organized
+
+python remove_bg_script.py video-dataset-Lily-Bikini-organized video-dataset-Lily-Bikini-rm-background-organized --copy_others
+```
 
 ## Model Details
 #####
